@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="coloring">
       <div className="todisplay">
-        <img src="img/Logos.jpeg" alt="Logo" height="92px" />
+        <img src="assessts/img/Logos.jpeg" alt="Logo" height="92px" />
       </div>
       <div id="navbar" className="navbar">
         <ul>
