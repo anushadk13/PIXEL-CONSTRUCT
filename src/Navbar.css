@@ -5,7 +5,6 @@
 }
 
 
-/* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 
  :root {
     /* Background color for the entire website, including individual sections */
@@ -90,23 +89,18 @@ a:hover {
 
 #navbar {
     padding: 0;
-    margin-left: 250px;
+    margin-left: 200px;
     margin-top: 5px;
 }
 
 #navbars {
     padding: 0;
     margin-top: 30px;
-    margin-left: 150px;
+    margin-left: 100px;
 }
 
 .todisplay {
     margin-top: 5px;
-}
-
-.name {
-    margin-left: 10px;
-    font-weight: 800;
 }
 
 .navbar ul {
@@ -129,7 +123,7 @@ a:hover {
     justify-content: space-between;
     padding-top: 30px;
     padding: 40px;
-    margin-left: 25px;
+    margin-left: 20px;
     font-size: 17px;
     font-weight: 900;
     color: #fff;
