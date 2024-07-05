@@ -216,3 +216,57 @@ i:hover {
         font-size: 14px;
     }
 }
+
+
+/* Responsive adjustments */
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar a,
+    .navbar a:focus {
+        padding: 10px;
+        font-size: 14px;
+    }
+    .navbar a:before {
+        bottom: -2px;
+    }
+    #navbars {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    #navbar {
+        margin-left: 0;
+        width: 100%;
+    }
+    .fa-solid {
+        font-size: 18px;
+    }
+    .name {
+        font-size: 16px;
+    }
+    .navbar ul {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar a,
+    .navbar a:focus {
+        padding: 5px;
+        font-size: 14px;
+    }
+    .fa-solid {
+        font-size: 18px;
+    }
+    .coloring img {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .name {
+        font-size: 14px;
+    }
+}
